@@ -55,11 +55,11 @@ sections:
 
     actions:
       - type: Button
-        label: Let´s Go
+        label: Learn more
         altText: ''
         url: /projects
-        showIcon: true
-        icon: ''
+        showIcon: false
+        icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
