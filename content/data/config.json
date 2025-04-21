@@ -63,7 +63,7 @@
         ],
         "contacts": {
             "type": "ContactBlock",
-            "title": "Contact details",
+            "title": "Kontakt Daten",
             "phoneNumber": "",
             "phoneAltText": "",
             "email": "HansSimon20@gmail.com",
