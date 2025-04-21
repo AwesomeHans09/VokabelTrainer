@@ -14,7 +14,7 @@ media:
   altText: Project image
 metaTags:
   - type: MetaTag
-    property: 'og:title'
+    property: ''
     content: ''
 ---
 
