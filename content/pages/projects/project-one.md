@@ -11,28 +11,7 @@ featuredImage:
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
-bottomSections:
-  - type: TextSection
-    title: ''
-    text: |+
-      ```
-
-
-      ```
-
-    colors: colors-f
-    variant: variant-a
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        textAlign: left
+bottomSections: []
 ---
 Vokaleb Trainer
 
