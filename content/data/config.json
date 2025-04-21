@@ -71,7 +71,7 @@
             "address": "",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "\n\n",
         "styles": {
             "self": {
                 "width": "narrow",
