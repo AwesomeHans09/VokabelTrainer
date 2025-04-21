@@ -13,7 +13,7 @@ featuredImage:
   elementId: ''
 bottomSections:
   - type: TextSection
-    title: The Section Title
+    title: 'Vokabel Trainer '
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
