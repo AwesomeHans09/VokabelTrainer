@@ -21,7 +21,7 @@ bottomSections:
         style: primary
         elementId: ''
       - type: Button
-        label: Learn more
+        label: Antwort Zwei
         altText: ''
         url: /
         showIcon: false
