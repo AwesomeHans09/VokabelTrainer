@@ -57,7 +57,7 @@ sections:
       - type: Button
         label: Learn more
         altText: ''
-        url: /Projekt
+        url: /projects
         showIcon: false
         icon: arrowRight
         iconPosition: right
