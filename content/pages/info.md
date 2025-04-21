@@ -110,7 +110,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
+            label: YouTube
             url: 'https://twitter.com/'
         styles:
           self:
