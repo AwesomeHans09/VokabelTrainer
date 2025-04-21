@@ -96,7 +96,7 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
+    subtitle: 'Du Findest mich auf:'
     colors: colors-f
     items:
       - type: FeaturedItem
@@ -205,7 +205,6 @@ sections:
     variant: variant-a
     subtitle: 'Kontakt:'
     colors: colors-f
-    text: |+
+    text: |
       [HansSimon20@gmail.com](mailto:thisismyemail.@myemail.me)
-
 ---
