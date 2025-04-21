@@ -103,7 +103,7 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: 'https://github.com/AwesomeHans09'
         styles:
           self:
             textAlign: left
