@@ -36,7 +36,7 @@ sections:
       - type: Link
         label: "Mein Social Media\U0001F4F1"
         altText: Alles über mich findest du hier
-        url: HansSimon20.de
+        url: 'https://linktr.ee/HansSimon20'
         showIcon: false
         icon: arrowRight
         iconPosition: right
