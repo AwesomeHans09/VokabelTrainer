@@ -205,6 +205,7 @@ sections:
     variant: variant-a
     subtitle: 'Kontakt:'
     colors: colors-f
-    text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+    text: |+
+      [HansSimon20@gmail.com](mailto:thisismyemail.@myemail.me)
+
 ---
