@@ -3,7 +3,7 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-c",
+        "headerVariant": "variant-a",
         "isSticky": false,
         "title": "Home",
         "isTitleVisible": true,
@@ -25,15 +25,7 @@
                 "url": "/blog"
             }
         ],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "",
-                "label": "Home",
-                "url": "",
-                "icon": "github"
-            }
-        ],
+        "socialLinks": [],
         "styles": {
             "self": {
                 "width": "full"
