@@ -25,15 +25,7 @@
                 "url": "/blog"
             }
         ],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "",
-                "label": "Home",
-                "url": "",
-                "icon": "github"
-            }
-        ],
+        "socialLinks": [],
         "styles": {
             "self": {
                 "width": "full"
