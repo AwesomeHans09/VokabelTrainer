@@ -34,7 +34,7 @@ sections:
     type: HeroSection
     actions:
       - type: Link
-        label: Learn more
+        label: Mein Youtube Kanal
         altText: ''
         url: 'https://www.youtube.com/@HansSimon20'
         showIcon: false
