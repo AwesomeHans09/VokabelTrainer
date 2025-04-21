@@ -1,29 +1,588 @@
----
-type: ProjectLayout
-title: A very cool code project
-colors: colors-a
-date: '2021-10-15'
-client: Awesome client
-description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
----
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vokabeltrainer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        function shuffleArray(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex != 0) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [
+                    array[randomIndex], array[currentIndex]];
+            }
+            return array;
+        }
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+        function Vokabeltrainer() {
+            // Vokabeln direkt im Code definiert
+            const vokabeln = [
+                { wort: "funktionieren", uebersetzung: "to work" },
+                { wort: "füllen", uebersetzung: "to fill" },
+                { wort: "gekühlt", uebersetzung: "refrigerated" },
+                { wort: "großer Laden", uebersetzung: "store (BE)" },
+                { wort: "im Wert von", uebersetzung: "worth of" },
+                { wort: "Kasse", uebersetzung: "checkout" },
+                { wort: "kaufen", uebersetzung: "to buy, bought, bought" },
+                { wort: "können", uebersetzung: "may" },
+                { wort: "Kunde", uebersetzung: "customer" },
+                { wort: "Kundenservice", uebersetzung: "customer service" },
+                { wort: "reduzieren", uebersetzung: "to reduce" },
+                { wort: "Regal", uebersetzung: "shelf (sg), shelves (pl)" },
+                { wort: "spenden", uebersetzung: "to donate" },
+                { wort: "stattfinden", uebersetzung: "to take place" },
+                { wort: "Tasche", uebersetzung: "bag" },
+                { wort: "verkaufen", uebersetzung: "to sell, sold, sold" },
+                { wort: "Verkäufer", uebersetzung: "shop assistant" },
+                { wort: "Zulieferer", uebersetzung: "supplier" },
+                { wort: "Kühllager", uebersetzung: "refrigerated warehouse" },
+                { wort: "Laden", uebersetzung: "shop" },
+                { wort: "Lager", uebersetzung: "warehouse" },
+                { wort: "liefern", uebersetzung: "to deliver" },
+                { wort: "mit enthalten sein", uebersetzung: "to be included" },
+                { wort: "Option", uebersetzung: "option" },
+                { wort: "Praktikant", uebersetzung: "intern" },
+                { wort: "präsentieren", uebersetzung: "to present" },
+                { wort: "Produkt", uebersetzung: "product" },
+                { wort: "aufbewahrt werden in", uebersetzung: "to be kept in" },
+                { wort: "Ausbildung; Lehre", uebersetzung: "apprenticeship" },
+                { wort: "Bäcker", uebersetzung: "baker" },
+                { wort: "einen Blick werfen auf", uebersetzung: "to take a look at" },
+                { wort: "einpacken", uebersetzung: "to pack" },
+                { wort: "Einzelhandel", uebersetzung: "retail" },
+                { wort: "Einzelhändler", uebersetzung: "retailer" },
+                { wort: "Filialleiter", uebersetzung: "store manager" },
+                { wort: "Metzger", uebersetzung: "butcher" },
+                { wort: "frisch", uebersetzung: "fresh" }
+            ];
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+            const falschBeantworteteVokabeln = [];
+            let punkte = 0;
+            let aktuelleVokabel;
+            let istEnglischGefragt;
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+            const vokabelEingabe = document.getElementById("vokabelEingabe");
+            const uebersetzungEingabe = document.getElementById("uebersetzungEingabe");
+            const vokabelListe = document.getElementById("vokabelListe");
+            const wortAusgabe = document.getElementById("wortAusgabe");
+            const eingabeFeld = document.getElementById("eingabeFeld");
+            const punkteAnzeige = document.getElementById("punkteAnzeige");
+            const feedbackAusgabe = document.getElementById("feedbackAusgabe");
+            const neueVokabelnDiv = document.getElementById("neueVokabelnDiv");
+            const pruefungsDiv = document.getElementById("pruefungsDiv");
+            const startButton = document.getElementById("startButton");
+            const pruefenButton = document.getElementById("pruefenButton");
+            const vokabelHinzufuegenButton = document.getElementById("vokabelHinzufuegenButton");
+            const zurueckZumStartButton = document.createElement("button");
+            zurueckZumStartButton.textContent = "Zurück zum Start";
+            zurueckZumStartButton.style.marginTop = "20px";
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+            let weiterButton; // Deklariere ihn hier
+            let richtigeWortAnzeige;
+            let motivationsSpruchAnzeige;
+            let pruefenButtonClicked = false; // Zustand, ob Prüfen geklickt wurde
+            let spruchTimeout; // Variable für das Timeout
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+            const motivationsSprueche = [
+                "Super gemacht! 🫶",
+                "Weiter so!😁",
+                "Du schaffst das! Ich glaube an dich ",
+                "Klasse Leistung! Ich bin Stolt auf dich.",
+                "Fantastisch! ❤️",
+                "Prima!🥰",
+                "Ausgezeichnet! Gib nicht auf! 😎",
+                "Toll gemacht! 🤗",
+                "Du bist spitze! Bleib am Ball⚽",
+                "Sei stolz auf dich! 🥹",
+            ];
+            const motivationsSpruecheFalsch = [
+                "Bleib stark! 💪",
+                "Glaube an dich! ✨",
+                "Du schaffst das! 🎉",
+                "Gib nicht auf! 🚀",
+                "Jeder Schritt zählt! 👣",
+                "Kopf hoch! 😊",
+                "Mach weiter! ➡️",
+                "Sei mutig! 🦁",
+                "Deine Zeit kommt! ⏳",
+                "Wachse über dich hinaus! 🌱",
+            ];
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+            function vokabelHinzufuegen() {
+                const vokabel = vokabelEingabe.value.trim();
+                const uebersetzung = uebersetzungEingabe.value.trim();
+
+                if (vokabel !== "" && uebersetzung !== "") {
+                    vokabeln.push({ wort: vokabel, uebersetzung: uebersetzung });
+                    vokabelEingabe.value = "";
+                    uebersetzungEingabe.value = "";
+                    vokabelListeAktualisieren();
+                    feedbackAusgabe.textContent = "Vokabel hinzugefügt!";
+                    feedbackAusgabe.style.color = "green";
+                } else {
+                    feedbackAusgabe.textContent = "Bitte Vokabel und Übersetzung eingeben.";
+                    feedbackAusgabe.style.color = "red";
+                }
+            }
+
+            function vokabelListeAktualisieren() {
+                vokabelListe.innerHTML = "<h3>Vokabelliste</h3>";
+                vokabeln.forEach((vokabelpaar, index) => {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = `${vokabelpaar.wort} - ${vokabelpaar.uebersetzung}`;
+                    const entfernenButton = document.createElement("button");
+                    entfernenButton.textContent = "Entfernen";
+                    entfernenButton.classList.add("entfernen-button");
+                    entfernenButton.addEventListener("click", () => {
+                        vokabeln.splice(index, 1);
+                        vokabelListeAktualisieren();
+                        feedbackAusgabe.textContent = "Vokabel entfernt!";
+                        feedbackAusgabe.style.color = "green";
+                        if (vokabeln.length === 0) {
+                            pruefungsDiv.style.display = "none";
+                        }
+                    });
+                    listItem.appendChild(entfernenButton);
+                    vokabelListe.appendChild(listItem);
+                });
+                if (vokabeln.length > 0) {
+                    pruefungsDiv.style.display = "block";
+                } else {
+                    pruefungsDiv.style.display = "none";
+                }
+            }
+
+            function vokabelAbfragen() {
+                if (vokabeln.length === 0 && falschBeantworteteVokabeln.length === 0) {
+                    wortAusgabe.textContent = "Alle Vokabeln gelernt!";
+                    eingabeFeld.style.display = "none";
+                    pruefenButton.style.display = "none";
+                    if (!pruefungsDiv.contains(zurueckZumStartButton)) {
+                        pruefungsDiv.appendChild(zurueckZumStartButton);
+                    }
+                    return;
+                }
+
+                if (vokabeln.length === 0) {
+                  if (falschBeantworteteVokabeln.length > 0) {
+                        aktuelleVokabel = falschBeantworteteVokabeln[0];
+                        istEnglischGefragt = true;
+                    } else {
+                        wortAusgabe.textContent = "Keine Vokabeln vorhanden. Bitte füge Vokabeln hinzu.";
+                        eingabeFeld.style.display = "none";
+                        pruefenButton.style.display = "none";
+                        return;
+                    }
+                } else if (falschBeantworteteVokabeln.length > 0) {
+                    aktuelleVokabel = falschBeantworteteVokabeln[0];
+                    istEnglischGefragt = true;
+                }
+                else {
+                    aktuelleVokabel = vokabeln[Math.floor(Math.random() * vokabeln.length)];
+                    istEnglischGefragt = Math.random() < 0.5;
+                }
+
+                wortAusgabe.textContent = istEnglischGefragt ? `Übersetze: ${aktuelleVokabel.wort}` : `Übersetze: ${aktuelleVokabel.uebersetzung}`;
+                eingabeFeld.style.display = "block";
+                pruefenButton.style.display = "block";
+                eingabeFeld.value = "";
+                eingabeFeld.focus();
+                feedbackAusgabe.textContent = "";
+                document.body.style.backgroundColor = "#f5f5f5";
+                if (weiterButton && pruefungsDiv.contains(weiterButton)) {
+                    pruefungsDiv.removeChild(weiterButton);
+                }
+                if (richtigeWortAnzeige && pruefungsDiv.contains(richtigeWortAnzeige)) {
+                    pruefungsDiv.removeChild(richtigeWortAnzeige);
+                }
+                if (motivationsSpruchAnzeige && pruefungsDiv.contains(motivationsSpruchAnzeige)) {
+                    pruefungsDiv.removeChild(motivationsSpruchAnzeige);
+                }
+                pruefenButtonClicked = false; // Reset beim Aufruf einer neuen Vokabel
+                if (weiterButton) {
+                    weiterButton.disabled = true; // Deaktiviere den Weiter-Button
+                }
+            }
+
+            function pruefen() {
+                pruefenButtonClicked = true; // Setze auf true, wenn Prüfen geklickt wurde
+                const benutzerEingabe = eingabeFeld.value.trim().toLowerCase();
+                const erwarteteAntworten = istEnglischGefragt
+                    ? aktuelleVokabel.uebersetzung.split(",").map(s => s.trim().toLowerCase())
+                    : [aktuelleVokabel.wort.toLowerCase()];
+
+                let antwortRichtig = false;
+                for (const antwort of erwarteteAntworten) {
+                    if (benutzerEingabe === antwort) {
+                        antwortRichtig = true;
+                        break;
+                    }
+                }
+
+                if (antwortRichtig) {
+                    punkte++;
+                    punkteAnzeige.textContent = `Punkte: ${punkte}`;
+                    feedbackAusgabe.textContent = "Richtig!";
+                    feedbackAusgabe.style.color = "green";
+                    document.body.style.backgroundColor = "#90EE90";
+                    const zufallsSpruch = motivationsSprueche[Math.floor(Math.random() * motivationsSprueche.length)];
+                    if (!motivationsSpruchAnzeige) {
+                        motivationsSpruchAnzeige = document.createElement("p");
+                        motivationsSpruchAnzeige.classList.add("motivations-spruch-anzeige");
+                        motivationsSpruchAnzeige.addEventListener("click", () => {
+                            clearTimeout(spruchTimeout); //clearTimeout hinzufügen
+                            pruefungsDiv.removeChild(motivationsSpruchAnzeige);
+                            motivationsSpruchAnzeige = null;
+                            vokabelAbfragen();
+                        });
+                    }
+                    motivationsSpruchAnzeige.textContent = zufallsSpruch;
+                    pruefungsDiv.appendChild(motivationsSpruchAnzeige);
+
+                    // Setze ein Timeout, um den Spruch nach 3 Sekunden zu entfernen
+                    spruchTimeout = setTimeout(() => {
+                        pruefungsDiv.removeChild(motivationsSpruchAnzeige);
+                        motivationsSpruchAnzeige = null;
+                        vokabelAbfragen();
+                    }, 3000);
+
+                    const indexInFalsch = falschBeantworteteVokabeln.indexOf(aktuelleVokabel);
+                    if (indexInFalsch > -1) {
+                        falschBeantworteteVokabeln.splice(indexInFalsch, 1);
+                    } else {
+                        const indexInVokabeln = vokabeln.indexOf(aktuelleVokabel);
+                        if (indexInVokabeln > -1)
+                            vokabeln.splice(indexInVokabeln, 1);
+                    }
+
+                    if (vokabeln.length === 0 && falschBeantworteteVokabeln.length === 0) {
+                        wortAusgabe.textContent = "Alle Vokabeln gelernt!";
+                        eingabeFeld.style.display = "none";
+                        pruefenButton.style.display = "none";
+                        if (!pruefungsDiv.contains(zurueckZumStartButton)) {
+                            pruefungsDiv.appendChild(zurueckZumStartButton);
+                        }
+                    } else {
+                        // Erstelle den Weiter-Button nach der richtigen Antwort, falls er nicht existiert.
+                        if (!weiterButton) {
+                            weiterButton = document.createElement("button");
+                            weiterButton.textContent = "Weiter";
+                            weiterButton.classList.add("weiter-button"); // CSS-Klasse für Styling
+                            weiterButton.addEventListener("click", () => {
+                                clearTimeout(spruchTimeout); // clearTimeout hinzufügen
+                                vokabelAbfragen();
+                                pruefungsDiv.removeChild(weiterButton);
+                                weiterButton = null;
+                                if (richtigeWortAnzeige && pruefungsDiv.contains(richtigeWortAnzeige)) {
+                                    pruefungsDiv.removeChild(richtigeWortAnzeige);
+                                }
+                            });
+                            pruefenButton.parentNode.insertBefore(weiterButton, pruefenButton.nextSibling);
+                        }
+                        weiterButton.disabled = false; // Aktiviere den Weiter-Button nach richtiger Antwort
+                    }
+                } else {
+                    feedbackAusgabe.textContent = motivationsSpruecheFalsch[Math.floor(Math.random() * motivationsSpruecheFalsch.length)];
+                    feedbackAusgabe.style.color = "red";
+                    document.body.style.backgroundColor = "#FFBABA";
+                    if (!richtigeWortAnzeige) {
+                        richtigeWortAnzeige = document.createElement("p");
+                        richtigeWortAnzeige.classList.add("richtige-wort-anzeige");
+                    }
+                    richtigeWortAnzeige.textContent = `Die richtige Übersetzung wäre gewesen: 
+                    >>${erwarteteAntworten.join(" oder ")}<<`;
+                    pruefungsDiv.appendChild(richtigeWortAnzeige);
+
+                    if (!falschBeantworteteVokabeln.includes(aktuelleVokabel)) {
+                        falschBeantworteteVokabeln.push(aktuelleVokabel);
+                    }
+                    // Erstelle den Weiter-Button nach der falschen Antwort, falls er nicht existiert.
+                    if (!weiterButton) {
+                        weiterButton = document.createElement("button");
+                        weiterButton.textContent = "Weiter";
+                        weiterButton.classList.add("weiter-button"); // CSS-Klasse für Styling
+                        weiterButton.addEventListener("click", () => {
+                            clearTimeout(spruchTimeout);
+                            vokabelAbfragen();
+                            pruefungsDiv.removeChild(weiterButton);
+                            weiterButton = null;
+                            if (richtigeWortAnzeige && pruefungsDiv.contains(richtigeWortAnzeige)) {
+                                pruefungsDiv.removeChild(richtigeWortAnzeige);
+                            }
+                        });
+                        pruefenButton.parentNode.insertBefore(weiterButton, pruefenButton.nextSibling);
+                    }
+                    weiterButton.disabled = false;
+                }
+            }
+
+            function startTraining() {
+                if (vokabeln.length === 0 && falschBeantworteteVokabeln.length === 0) {
+                    feedbackAusgabe.textContent = "Bitte füge Vokabeln zum Lernen hinzu!";
+                    feedbackAusgabe.style.color = "red";
+                    return;
+                }
+                neueVokabelnDiv.style.display = "none";
+                pruefungsDiv.style.display = "block";
+                punkte = 0;
+                punkteAnzeige.textContent = `Punkte: ${punkte}`;
+                vokabelAbfragen();
+            }
+
+            zurueckZumStartButton.addEventListener("click", () => {
+                neueVokabelnDiv.style.display = "block";
+                pruefungsDiv.style.display = "none";
+                falschBeantworteteVokabeln.length = 0;
+                punkte = 0;
+                punkteAnzeige.textContent = `Punkte: ${punkte}`;
+                wortAusgabe.textContent = "";
+                eingabeFeld.value = "";
+                eingabeFeld.style.display = "block";
+                pruefenButton.style.display = "block";
+                vokabelListeAktualisieren();
+                document.body.style.backgroundColor = "#f5f5f5";
+                if (pruefungsDiv.contains(zurueckZumStartButton)) {
+                    pruefungsDiv.removeChild(zurueckZumStartButton);
+                }
+                if (weiterButton && pruefungsDiv.contains(weiterButton)) {
+                    pruefungsDiv.removeChild(weiterButton);
+                }
+                if (richtigeWortAnzeige && pruefungsDiv.contains(richtigeWortAnzeige)) {
+                    pruefungsDiv.removeChild(richtigeWortAnzeige);
+                }
+                if (motivationsSpruchAnzeige && pruefungsDiv.contains(motivationsSpruchAnzeige)) {
+                    clearTimeout(spruchTimeout);  // clearTimeout hinzufügen
+                    pruefungsDiv.removeChild(motivationsSpruchAnzeige);
+                    motivationsSpruchAnzeige = null;
+                }
+                pruefenButtonClicked = false;
+            });
+
+            eingabeFeld.addEventListener("keypress", (event) => {
+                if (event.key === "Enter") {
+                    pruefen();
+                }
+            });
+
+            vokabelHinzufuegenButton.addEventListener("click", vokabelHinzufuegen);
+            startButton.addEventListener("click", startTraining);
+            pruefenButton.addEventListener("click", pruefen);
+            vokabelListeAktualisieren();
+        }
+
+        document.addEventListener("DOMContentLoaded", Vokabeltrainer);
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background-color 0.5s ease;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        h1 {
+            color: #4CAF50;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        #neueVokabelnDiv, #pruefungsDiv {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #neueVokabelnDiv {
+            display: block;
+        }
+        #pruefungsDiv {
+            display: none;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #vokabelListe {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            width: 100%;
+        }
+        #vokabelListe li {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #vokabelListe li button {
+            margin-top: 0;
+        }
+        .entfernen-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .entfernen-button:hover {
+            background-color: #d32f2f;
+        }
+        #wortAusgabe {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #eingabeFeld {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        #punkteAnzeige {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #007BFF;
+        }
+        #feedbackAusgabe {
+            margin-top: 20px;
+            font-weight: bold;
+            min-height: 24px;
+        }
+        #startButton {
+            margin-top: 30px;
+            background-color: #007BFF;
+        }
+        #startButton:hover {
+            background-color: #0056b3;
+        }
+        .weiter-button {
+            padding: 10px 20px;
+            margin-top: 15px; /* Abstand zum Eingabefeld */
+            margin-left: 10px; /* Abstand zum Prüfen-Button */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .weiter-button:hover {
+            background-color: #45a049;
+        }
+        .weiter-button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .richtige-wort-anzeige {
+            font-size: 24px;
+            font-weight: bold;
+            color: #155799;
+            margin-top: 10px;
+        }
+        .motivations-spruch-anzeige {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #008000;
+            cursor: pointer;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .motivations-spruch-anzeige:hover {
+            background-color: rgba(255, 255, 255, 0.95);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        #pruefenButton {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vokabeltrainer</h1>
+
+    <div id="neueVokabelnDiv">
+        <h2>Neue Vokabeln hinzufügen</h2>
+        <label for="vokabelEingabe">Englische Vokabel:</label>
+        <input type="text" id="vokabelEingabe" placeholder="Englisch">
+        <label for="uebersetzungEingabe">Deutsche Übersetzung:</label>
+        <input type="text" id="uebersetzungEingabe" placeholder="Deutsch">
+        <button id="vokabelHinzufuegenButton">Vokabel hinzufügen</button>
+        <button id="startButton">Vokabeltraining starten</button>
+        <ul id="vokabelListe"></ul>
+    </div>
+
+    <div id="pruefungsDiv">
+        <p id="wortAusgabe"></p>
+        <input type="text" id="eingabeFeld" placeholder="Deine Antwort">
+        <div style="display: flex;">
+            <button id="pruefenButton">Prüfen</button>
+            <button class="weiter-button" disabled>Weiter</button>
+        </div>
+        <p id="punkteAnzeige"></p>
+        <p id="feedbackAusgabe"></p>
+    </div>
+</body>
+</html>
+
