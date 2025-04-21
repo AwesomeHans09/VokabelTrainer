@@ -63,7 +63,7 @@ sections:
         style: primary
         elementId: ''
     colors: colors-d
-    backgroundSize: full
+    backgroundSize: inset
     elementId: ''
     styles:
       self:
