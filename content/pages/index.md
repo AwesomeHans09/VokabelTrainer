@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: Über mich
+    title: Simon Hans
     subtitle: ''
     styles:
       self:
