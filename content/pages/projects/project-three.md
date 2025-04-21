@@ -5,10 +5,6 @@ colors: colors-a
 date: '2022-01-22'
 client: Awesome client
 description: ''
-media:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project image
 metaTags:
   - type: MetaTag
     property: ''
