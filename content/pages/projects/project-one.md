@@ -20,7 +20,7 @@ bottomSections:
 
       ```
 
-    colors: colors-f
+    colors: colors-b
     variant: variant-a
     elementId: ''
     styles:
