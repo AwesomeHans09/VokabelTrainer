@@ -28,7 +28,7 @@ bottomSections:
           - pr-4
         textAlign: left
 metaTags: []
-colors: colors-a
+colors: colors-b
 ---
 Vokaleb Trainer
 
