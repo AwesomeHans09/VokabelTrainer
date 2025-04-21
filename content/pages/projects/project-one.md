@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Vokalen Trainer
+title: Vokabel Trainer
 colors: colors-a
 date: '2025-04-21'
 client: ''
