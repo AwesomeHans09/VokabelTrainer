@@ -55,7 +55,7 @@ sections:
 
     actions:
       - type: Button
-        label: Try it now
+        label: Let´s Go
         altText: ''
         url: /
         showIcon: true
