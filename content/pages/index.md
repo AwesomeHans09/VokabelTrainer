@@ -47,5 +47,5 @@ sections:
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
-socialImage: /images/HansSimon.jpg
+socialImage: /images/e.jpg
 ---
