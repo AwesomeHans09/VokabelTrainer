@@ -28,7 +28,7 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "GitHub",
+                "altText": "",
                 "label": "Home",
                 "url": "https://github.com/netlify-templates",
                 "icon": "github"
