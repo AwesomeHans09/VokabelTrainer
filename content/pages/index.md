@@ -59,7 +59,7 @@ sections:
         altText: ''
         url: /projects
         showIcon: true
-        icon: arrowUpLeft
+        icon: ''
         iconPosition: right
         style: primary
         elementId: ''
