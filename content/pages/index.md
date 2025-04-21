@@ -57,7 +57,7 @@ sections:
       - type: Button
         label: Let´s Go
         altText: ''
-        url: /
+        url: hansvokabeln.netlify.app/projects/project-one/
         showIcon: true
         icon: arrowRight
         iconPosition: right
