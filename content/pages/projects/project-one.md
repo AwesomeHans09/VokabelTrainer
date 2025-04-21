@@ -13,16 +13,6 @@ featuredImage:
 bottomSections: []
 metaTags: []
 colors: colors-a
-media:
-  type: VideoBlock
-  title: Title of the video
-  url: 'https://youtu.be/onDxtIaf8gE?si=JZs_dJJU3dQdsFkp'
-  elementId: ''
-  autoplay: false
-  loop: false
-  muted: false
-  controls: true
-  aspectRatio: '16:9'
 ---
 Vokaleb Trainer
 
