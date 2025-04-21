@@ -35,7 +35,7 @@ sections:
     actions:
       - type: Link
         label: "Mein Social Media\U0001F4F1"
-        altText: ''
+        altText: Alles über mich findest du hier
         url: 'https://www.youtube.com/@HansSimon20'
         showIcon: false
         icon: arrowRight
