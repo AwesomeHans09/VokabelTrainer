@@ -119,7 +119,7 @@ sections:
         actions:
           - type: Link
             label: Instagram
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.instagram.com/hans_simon20?igsh=MzAyN3c1OHlhZjVl'
         styles:
           self:
             textAlign: left
