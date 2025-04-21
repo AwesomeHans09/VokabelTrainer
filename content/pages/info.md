@@ -111,7 +111,7 @@ sections:
         actions:
           - type: Link
             label: YouTube
-            url: 'https://twitter.com/'
+            url: 'https://www.youtube.com/@HansSimon20'
         styles:
           self:
             textAlign: left
