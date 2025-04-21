@@ -5,10 +5,6 @@ colors: colors-a
 date: '2021-12-20'
 client: Awesome client
 description: Servus
-media:
-  type: ImageBlock
-  url: /images/bg2.jpg
-  altText: Project image
 addTitleSuffix: false
 ---
 
