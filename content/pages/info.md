@@ -118,7 +118,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: LinkedIn
+            label: Instagram
             url: 'https://www.linkedin.com/'
         styles:
           self:
