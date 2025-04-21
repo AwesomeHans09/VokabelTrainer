@@ -59,7 +59,7 @@ sections:
         altText: ''
         url: hansvokabeln.netlify.app/projects/project-one/
         showIcon: true
-        icon: arrowRight
+        icon: arrowUpLeft
         iconPosition: right
         style: primary
         elementId: ''
