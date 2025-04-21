@@ -12,7 +12,7 @@ bottomSections:
       any layout and any screen.
     actions:
       - type: Button
-        label: Try it now
+        label: Antwort Eins
         altText: ''
         url: /
         showIcon: true
