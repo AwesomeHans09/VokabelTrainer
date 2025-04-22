@@ -12,7 +12,7 @@ bottomSections:
       ##### Eine gute Beschreibung erzeugt lebendige Bilder im Kopf des Lesers
       durch präzise, detailreiche Darstellungen.
 
-    colors: colors-b
+    colors: colors-f
     variant: variant-b
     elementId: ''
     styles:
