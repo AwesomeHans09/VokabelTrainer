@@ -46,7 +46,7 @@ bottomSections:
         textAlign: left
   - type: TextSection
     title: ''
-    subtitle: "\U0001F9E0"
+    subtitle: Vorbildliches Beispiel
     text: >
       Tolkiens Beschreibung des Auenlandes in "Der Herr der Ringe" gilt als
       Musterbeispiel für eine atmosphärische Ortsbeschreibung.
