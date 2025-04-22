@@ -14,9 +14,7 @@ sections:
     title: EINEN AUFSATZ RICHTIG SCHREIBEN
     subtitle: ''
     text: |+
-
-
-      ######
+      #
 
     colors: colors-f
     variant: variant-a
