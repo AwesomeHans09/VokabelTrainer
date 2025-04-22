@@ -101,7 +101,7 @@ bottomSections:
         elementId: ''
         image:
           type: ImageBlock
-          url: /images/Gemini_Generated_Image_y6ycaqy6ycaqy6yc.jpeg
+          url: /images/Gemini_Generated_Image_y6ycaqy6ycaqy6yc-removebg-preview.png
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
