@@ -6,7 +6,7 @@ client: ''
 description: ''
 bottomSections:
   - type: DividerSection
-    title: Divider
+    title: ''
     elementId: ''
     styles:
       self:
