@@ -12,9 +12,52 @@ backgroundImage:
 sections:
   - type: CtaSection
     title: Einen Aufsatz richtig schreiben
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: >+
+      ## Was ist ein Aufsatz?
+
+
+      Ein Aufsatz ist ein schriftlicher Text, in dem du ein bestimmtes Thema
+      bearbeitest. Dabei zeigst du, wie gut du dich ausdrücken, argumentieren
+      und strukturieren kannst. Aufsätze sind ein wichtiger Bestandteil des
+      Deutschunterrichts.
+
+
+      ## Die wichtigsten Aufsatzarten
+
+
+      **1. Erzählung:**
+
+      Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
+      sind Kreativität und Fantasie gefragt.
+
+
+
+
+      **2. Beschreibung:**
+
+      Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
+      möglichst genau und anschaulich.
+
+
+
+
+      **3. Bericht:**
+
+      Du schilderst sachlich und chronologisch, was passiert ist. Berichte
+      findet man oft bei Unfall- oder Zeitungsberichten.
+
+
+
+
+      **4. Erörterung:**
+
+      Du setzt dich mit einer Fragestellung auseinander, beleuchtest
+      verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
+
+
+
+
+
     actions:
       - type: Button
         label: Try it now
