@@ -17,8 +17,10 @@ bottomSections:
         borderWidth: 1
   - type: TextSection
     title: ''
-    text: |
-      ![](/images/Screenshot%202025-04-22%20215049.png)
+    text: >+
+      <div style="text-align:
+      center">![](/images/Screenshot%202025-04-22%20215049.png)</div>
+
     colors: colors-f
     variant: variant-a
     elementId: ''
