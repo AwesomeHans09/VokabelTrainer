@@ -8,13 +8,10 @@ bottomSections:
   - type: TextSection
     title: "\U0001F58C️"
     subtitle: Anschaulichkeit
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >+
+      ##### Eine gute Beschreibung erzeugt lebendige Bilder im Kopf des Lesers
+      durch präzise, detailreiche Darstellungen.
+
     colors: colors-b
     variant: variant-b
     elementId: ''
