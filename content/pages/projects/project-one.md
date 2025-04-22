@@ -112,7 +112,7 @@ bottomSections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/Screenshot 2025-04-22 213051.png
       altText: Hero image
       caption: Caption of the image
       elementId: ''
