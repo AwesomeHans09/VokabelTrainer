@@ -16,7 +16,7 @@ bottomSections:
           Handlungsentwicklung, die Charakterisierung der Figuren und die
           atmosphärische Darstellung des Handlungsortes.
         name: ''
-        title: ''
+        title: Definition und Merkmale
         elementId: ''
       - type: Testimonial
         quote: >-
