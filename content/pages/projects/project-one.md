@@ -64,11 +64,7 @@ bottomSections:
           - pr-4
         textAlign: center
   - type: TextSection
-    title: >-
-      Berichte können als Nachrichtenmeldungen, Unfallberichte oder Protokolle
-      erscheinen. Ein Beispiel ist die Berichterstattung über die
-      Hochwasserkatastrophe 2021, die im Tagesspiegel faktenorientiert und
-      sachlich dargestellt wurde.
+    title: ''
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
