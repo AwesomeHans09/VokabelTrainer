@@ -63,12 +63,15 @@ bottomSections:
   - type: TextSection
     title: Elemente einer fesselnden Erzählung
     subtitle: ''
-    text: >+
+    text: >
       ### Exposition
 
 
       #### Einführung von Figuren, Ort und Zeit; Vorstellung der
       Ausgangssituation
+
+
+      \-------------------------------------------------------------------------------------------------------------
 
 
       ### Steigende Handlung
@@ -78,10 +81,16 @@ bottomSections:
       Protagonisten
 
 
+      \-------------------------------------------------------------------------------------------------------------
+
+
       ### Höhepunkt
 
 
       #### Der entscheidende Moment, in dem sich alles zuspitzt
+
+
+      \-------------------------------------------------------------------------------------------------------------
 
 
       ### Fallende Handlung & Auflösung
@@ -89,6 +98,8 @@ bottomSections:
 
       #### Lösung der Konflikte und Abschluss der Geschichte
 
+
+      \-------------------------------------------------------------------------------------------------------------
     colors: colors-c
     variant: variant-b
     elementId: ''
