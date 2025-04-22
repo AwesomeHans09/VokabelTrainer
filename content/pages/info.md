@@ -14,10 +14,6 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: "# \U0001F600\U0001F600\U0001F600\U0001F600\n\n"
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
     styles:
       self:
         height: auto
