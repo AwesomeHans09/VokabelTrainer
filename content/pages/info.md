@@ -82,7 +82,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: 'https://discord.gg/aGVH7TsF'
         styles:
           self:
             textAlign: left
