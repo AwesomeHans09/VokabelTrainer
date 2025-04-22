@@ -46,7 +46,7 @@ bottomSections:
           - pr-4
         textAlign: center
   - type: TextSection
-    title: The Section Title
+    title: "\U0001F552"
     subtitle: Aktualität und Relevanz
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
