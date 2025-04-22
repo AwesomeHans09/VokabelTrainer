@@ -91,7 +91,7 @@ sections:
       - type: Button
         label: Aufsatzarten
         altText: ''
-        url: /
+        url: /projects
         showIcon: true
         icon: arrowRight
         iconPosition: right
