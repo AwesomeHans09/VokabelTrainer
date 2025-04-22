@@ -25,7 +25,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: TextSection
-    title: The Section Title
+    title: "\U0001F3D7️"
     subtitle: Klarer Aufbau
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
