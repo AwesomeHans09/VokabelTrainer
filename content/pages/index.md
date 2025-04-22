@@ -13,10 +13,6 @@ sections:
   - type: CtaSection
     title: Einen Aufsatz richtig schreiben
     text: >
-
-
-
-
       ## ***Alles Wichtige über Aufsätze für die Schule***
 
 
