@@ -44,7 +44,7 @@ bottomSections:
           - pb-28
           - pl-4
           - pr-4
-        textAlign: left
+        textAlign: center
   - type: TextSection
     title: The Section Title
     subtitle: The section subtitle
