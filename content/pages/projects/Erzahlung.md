@@ -50,6 +50,16 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: center
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
   - type: TextSection
     title: The Section Title
     subtitle: The section subtitle
