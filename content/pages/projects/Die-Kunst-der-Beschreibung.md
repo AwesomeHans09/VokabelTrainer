@@ -74,7 +74,7 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: The Section Title
+    title: Techniken für lebendige Beschreibungen
     subtitle: The section subtitle
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
