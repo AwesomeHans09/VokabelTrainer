@@ -61,7 +61,7 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: Elemente einer fesselnden Erzählung
+    title: 'Elemente einer fesselnden Erzählung '
     subtitle: ''
     text: >
       ### Exposition
