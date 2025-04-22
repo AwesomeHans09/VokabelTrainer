@@ -46,7 +46,7 @@ bottomSections:
         textAlign: left
   - type: TextSection
     title: Vorbildliches Beispiel
-    subtitle: The section subtitle
+    subtitle: Vorbildliches Beispiel
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
