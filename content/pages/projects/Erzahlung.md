@@ -19,7 +19,7 @@ bottomSections:
           atmosphärische Darstellung des Handlungsortes.
         elementId: ''
       - type: Testimonial
-        quote: ''
+        quote: Bekanntes Beispiel
         name: ''
         title: ''
         elementId: ''
