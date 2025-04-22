@@ -5,6 +5,16 @@ date: '2025-04-22'
 client: ''
 description: ''
 bottomSections:
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
   - type: TextSection
     title: "\U0001F58C️"
     subtitle: Anschaulichkeit
