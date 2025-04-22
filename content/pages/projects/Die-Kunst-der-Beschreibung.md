@@ -106,9 +106,7 @@ bottomSections:
           caption: Caption of the image
           elementId: ''
       - type: Testimonial
-        quote: >-
-          “Anytime I have a question, I know I can get in touch with Doris. She
-          always helps me adjust my site to look as perfect as I’d hoped.”
+        quote: Sinneswahrnehmungen
         name: Johnna Doe
         title: Product Marketing Manager at Acme
         image:
