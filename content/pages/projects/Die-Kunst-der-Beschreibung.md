@@ -98,12 +98,6 @@ bottomSections:
           Verwenden Sie präzise beschreibende Wörter, um Ihren Text lebendig zu
           gestalten.
         title: ''
-        image:
-          type: ImageBlock
-          url: /images/person-2.jpg
-          altText: John Doe
-          caption: Caption of the image
-          elementId: ''
         elementId: ''
       - type: Testimonial
         quote: >-
