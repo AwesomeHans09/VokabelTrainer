@@ -30,7 +30,7 @@ sections:
       Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
       sind Kreativität und Fantasie gefragt.
 
-      -------------------------------------------------------------------------------------------------------------
+      =============================================================================================================
 
 
       **2. Beschreibung:**
@@ -38,7 +38,7 @@ sections:
       Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
       möglichst genau und anschaulich.
 
-      ----------------------------------------------------------------------------------------------------------
+      ==========================================================================================================
 
 
       **3. Bericht:**
@@ -46,7 +46,7 @@ sections:
       Du schilderst sachlich und chronologisch, was passiert ist. Berichte
       findet man oft bei Unfall- oder Zeitungsberichten.
 
-      -----------------------------------------------------------------------------------------------------------------------
+      =======================================================================================================================
 
 
       **4. Erörterung:**
@@ -54,7 +54,7 @@ sections:
       Du setzt dich mit einer Fragestellung auseinander, beleuchtest
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
 
-      -------------------------------------------------------------------------------------------------------------------------------
+      ===============================================================================================================================
 
     actions:
       - type: Button
