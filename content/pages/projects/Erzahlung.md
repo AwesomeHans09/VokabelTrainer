@@ -61,7 +61,7 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: ''
+    title: Elemente einer fesselnden Erzählung
     subtitle: ''
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
