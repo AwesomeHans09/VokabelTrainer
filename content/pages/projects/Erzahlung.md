@@ -21,7 +21,11 @@ bottomSections:
       - type: Testimonial
         quote: Bekanntes Beispiel
         name: ''
-        title: ''
+        title: >-
+          Die Bremer Stadtmusikanten der Gebrüder Grimm verkörpern eine
+          klassische Erzählung mit allen typischen Elementen: klare Figuren (die
+          Tiere), eine spannende Handlung (die Reise nach Bremen) und ein
+          definierter Ort (der Weg nach Bremen und das Räuberhaus).
         elementId: ''
     colors: colors-a
     variant: variant-a
