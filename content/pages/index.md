@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - type: TextSection
-    title: ''
+    title: EINEN AUFSATZ RICHTIG SCHREIBEN
     subtitle: ''
     text: |+
       ###### ****
