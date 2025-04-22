@@ -9,7 +9,7 @@ bottomSections:
     testimonials:
       - type: Testimonial
         quote: ''
-        name: John Doe
+        name: ''
         title: ''
         image:
           type: ImageBlock
