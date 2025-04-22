@@ -94,7 +94,9 @@ bottomSections:
     testimonials:
       - type: Testimonial
         quote: Adjektive & Adverbien
-        name: John Doe
+        name: >-
+          Verwenden Sie präzise beschreibende Wörter, um Ihren Text lebendig zu
+          gestalten.
         title: CEO at Parks
         image:
           type: ImageBlock
