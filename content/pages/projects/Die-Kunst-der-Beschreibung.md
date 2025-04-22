@@ -97,7 +97,7 @@ bottomSections:
         name: >-
           Verwenden Sie präzise beschreibende Wörter, um Ihren Text lebendig zu
           gestalten.
-        title: CEO at Parks
+        title: ''
         image:
           type: ImageBlock
           url: /images/person-2.jpg
