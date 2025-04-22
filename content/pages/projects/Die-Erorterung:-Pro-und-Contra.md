@@ -44,6 +44,16 @@ bottomSections:
       Ein klassisches Beispiel für ein Erörterungsthema ist die Frage: "Sollte
       das Wahlalter auf 16 Jahre gesenkt werden?" Hier lassen sich zahlreiche
       Argumente für beide Seiten finden und gegeneinander abwägen.
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
 metaTags: []
 colors: colors-a
 ---
