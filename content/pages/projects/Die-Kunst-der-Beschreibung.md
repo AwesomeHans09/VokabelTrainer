@@ -138,7 +138,7 @@ bottomSections:
         name: >-
           Nutzen Sie Metaphern und Vergleiche, um komplexe Eindrücke anschaulich
           zu vermitteln.
-        title: CEO at Parks
+        title: ''
         image:
           type: ImageBlock
           url: /images/person-2.jpg
