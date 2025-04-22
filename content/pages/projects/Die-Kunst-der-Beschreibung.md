@@ -50,7 +50,7 @@ bottomSections:
     text: >
       Tolkiens Beschreibung des Auenlandes in "Der Herr der Ringe" gilt als
       Musterbeispiel für eine atmosphärische Ortsbeschreibung.
-    colors: colors-d
+    colors: colors-b
     variant: variant-b
     elementId: ''
     styles:
