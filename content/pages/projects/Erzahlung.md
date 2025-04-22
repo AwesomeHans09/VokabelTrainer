@@ -84,6 +84,7 @@ bottomSections:
           - pr-4
         textAlign: left
         borderWidth: 5
+        borderColor: border-(--theme-light)
 metaTags: []
 colors: colors-c
 addTitleSuffix: false
