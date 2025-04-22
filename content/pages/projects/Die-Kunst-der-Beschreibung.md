@@ -26,7 +26,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: TextSection
-    title: ''
+    title: "\U0001F441️"
     subtitle: Objektiv vs Subjektiv
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
