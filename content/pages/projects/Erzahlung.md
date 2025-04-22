@@ -7,6 +7,7 @@ description: ''
 bottomSections: []
 metaTags: []
 colors: colors-a
+addTitleSuffix: false
 ---
 Vokaleb Trainer
 
