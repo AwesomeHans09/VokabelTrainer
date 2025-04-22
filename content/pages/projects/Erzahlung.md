@@ -41,7 +41,7 @@ bottomSections:
           - pr-4
         textAlign: center
 metaTags: []
-colors: colors-b
+colors: colors-c
 addTitleSuffix: false
 ---
 
