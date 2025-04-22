@@ -13,7 +13,11 @@ sections:
   - type: TextSection
     title: EINEN AUFSATZ RICHTIG SCHREIBEN
     subtitle: ''
-    text: ''
+    text: |+
+      ## **Alles was du wissen musst**
+
+
+
     colors: colors-f
     variant: variant-a
     elementId: ''
@@ -87,19 +91,11 @@ sections:
       - type: Button
         label: Aufsatzarten
         altText: ''
-        url: /
+        url: /projects
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
-      - type: Link
-        label: Grundlagen
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
         elementId: ''
     colors: colors-f
     backgroundSize: full
