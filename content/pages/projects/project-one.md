@@ -19,12 +19,6 @@ bottomSections:
     title: ''
     subtitle: ''
     actions: []
-    media:
-      type: ImageBlock
-      url: /images/Screenshot 2025-04-22 213603.png
-      altText: Hero image
-      caption: Caption of the image
-      elementId: ''
     colors: colors-a
     backgroundSize: full
     elementId: ''
