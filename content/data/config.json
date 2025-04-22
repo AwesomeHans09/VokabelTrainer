@@ -40,12 +40,6 @@
                 "label": "Info",
                 "url": "/info",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Kontakt",
-                "url": "HansSimon20@gmail.com",
-                "altText": ""
             }
         ],
         "contacts": {
