@@ -58,7 +58,7 @@ sections:
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
     actions:
       - type: Button
-        label: Try it now
+        label: Aufsatzarten
         altText: ''
         url: /
         showIcon: true
