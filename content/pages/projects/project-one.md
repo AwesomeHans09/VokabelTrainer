@@ -23,7 +23,7 @@ bottomSections:
           - pb-28
           - pl-4
           - pr-4
-        textAlign: left
+        textAlign: center
   - type: TextSection
     title: "\U0001F3D7️"
     subtitle: Klarer Aufbau
