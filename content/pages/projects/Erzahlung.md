@@ -52,7 +52,7 @@ bottomSections:
         textAlign: center
 metaTags: []
 colors: colors-c
-addTitleSuffix: false
+addTitleSuffix: true
 ---
 
 
