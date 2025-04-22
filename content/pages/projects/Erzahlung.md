@@ -8,13 +8,7 @@ bottomSections:
   - type: TestimonialsSection
     testimonials:
       - type: Testimonial
-        quote: >-
-          Eine Erzählung ist eine literarische Form, die eine Geschichte mit
-          Handlung, Figuren und zeitlich-räumlicher Einordnung präsentiert. Im
-          Gegensatz zum sachlichen Bericht lebt sie von emotionalen Elementen
-          und subjektiven Darstellungen.Wichtige Merkmale sind die
-          Handlungsentwicklung, die Charakterisierung der Figuren und die
-          atmosphärische Darstellung des Handlungsortes.
+        quote: Definition und Merkmale
         name: ''
         title: Definition und Merkmale
         elementId: ''
