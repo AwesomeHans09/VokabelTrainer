@@ -87,10 +87,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/hans_simon20?igsh=MzAyN3c1OHlhZjVl'
+        actions: []
         styles:
           self:
             textAlign: left
