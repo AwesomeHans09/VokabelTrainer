@@ -97,14 +97,6 @@ sections:
         iconPosition: right
         style: primary
         elementId: ''
-      - type: Link
-        label: Grundlagen
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
     colors: colors-f
     backgroundSize: full
     elementId: ''
