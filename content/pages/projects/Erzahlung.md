@@ -20,7 +20,7 @@ bottomSections:
         elementId: ''
       - type: Testimonial
         quote: ''
-        name: Johnna Doe
+        name: ''
         title: Product Marketing Manager at Acme
         image:
           type: ImageBlock
