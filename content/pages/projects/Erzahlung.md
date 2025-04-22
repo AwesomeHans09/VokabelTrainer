@@ -18,6 +18,13 @@ bottomSections:
         name: ''
         title: ''
         elementId: ''
+        image:
+          type: ImageBlock
+          url: >-
+            https://assets.stackbit.com/components/images/default/default-image.png
+          altText: altText of the image
+          caption: Caption of the image
+          elementId: ''
       - type: Testimonial
         quote: >-
           “Anytime I have a question, I know I can get in touch with Doris. She
