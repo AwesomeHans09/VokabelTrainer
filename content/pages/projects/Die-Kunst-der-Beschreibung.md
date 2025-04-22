@@ -110,7 +110,7 @@ bottomSections:
         name: >-
           Beziehen Sie alle Sinne ein: Was kann man sehen, hören, riechen,
           schmecken und fühlen?
-        title: Product Marketing Manager at Acme
+        title: ''
         image:
           type: ImageBlock
           url: /images/person-3.jpg
