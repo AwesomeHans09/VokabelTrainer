@@ -40,7 +40,7 @@ bottomSections:
         flexDirection: row-reverse
         textAlign: left
   - type: TextSection
-    title: The Section Title
+    title: ''
     text: |
       ![](/images/Screenshot%202025-04-22%20213603.png)
     colors: colors-f
