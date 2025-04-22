@@ -44,6 +44,10 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: left
+    subtitle: >-
+      Ein klassisches Beispiel für ein Erörterungsthema ist die Frage: "Sollte
+      das Wahlalter auf 16 Jahre gesenkt werden?" Hier lassen sich zahlreiche
+      Argumente für beide Seiten finden und gegeneinander abwägen.
 metaTags: []
 colors: colors-a
 ---
