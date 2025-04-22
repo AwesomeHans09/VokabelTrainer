@@ -16,63 +16,24 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: "\U0001F58C️"
-    subtitle: Anschaulichkeit
+    title: ''
     text: >+
-      ##### Eine gute Beschreibung erzeugt lebendige Bilder im Kopf des Lesers
-      durch präzise, detailreiche Darstellungen.
+      <div style="text-align:
+      center">![](/images/Screenshot%202025-04-22%20215049.png)</div>
 
-    colors: colors-b
-    variant: variant-b
+    colors: colors-f
+    variant: variant-a
     elementId: ''
     styles:
       self:
         height: auto
-        width: wide
+        width: narrow
         padding:
           - pt-28
           - pb-28
           - pl-4
           - pr-4
-        textAlign: center
-  - type: TextSection
-    title: "\U0001F441️"
-    subtitle: Objektiv vs Subjektiv
-    text: >
-      Objektive Beschreibungen stellen sachlich dar, während subjektive
-      Beschreibungen persönliche Eindrücke und Gefühle vermitteln.
-    colors: colors-b
-    variant: variant-b
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        textAlign: center
-  - type: TextSection
-    title: "\U0001F9E0"
-    subtitle: Vorbildliches Beispiel
-    text: >
-      Tolkiens Beschreibung des Auenlandes in "Der Herr der Ringe" gilt als
-      Musterbeispiel für eine atmosphärische Ortsbeschreibung.
-    colors: colors-b
-    variant: variant-b
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        textAlign: center
+        textAlign: left
   - type: DividerSection
     title: Divider
     elementId: ''
