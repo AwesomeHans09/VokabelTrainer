@@ -13,13 +13,7 @@ sections:
   - type: CtaSection
     title: Einen Aufsatz richtig schreiben
     text: >
-
-
-
-
-
-
-      ## Was ist ein Aufsatz?
+      ## **Was ist ein Aufsatz?**
 
 
       Ein Aufsatz ist ein schriftlicher Text, in dem du ein bestimmtes Thema
@@ -28,7 +22,7 @@ sections:
       Deutschunterrichts.
 
 
-      ## Die wichtigsten Aufsatzarten
+      ## **Die wichtigsten Aufsatzarten**
 
 
       **1. Erzählung:**
