@@ -13,7 +13,11 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: "# \U0001F600\U0001F600\U0001F600\U0001F600\n\n"
+    text: |+
+      ## Ich heiße
+
+      # **Simon Hans**
+
     styles:
       self:
         height: auto
@@ -70,10 +74,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+        actions: []
         styles:
           self:
             textAlign: left
@@ -81,15 +82,12 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: 'https://discord.gg/aGVH7TsF'
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+        actions: []
         styles:
           self:
             textAlign: left
