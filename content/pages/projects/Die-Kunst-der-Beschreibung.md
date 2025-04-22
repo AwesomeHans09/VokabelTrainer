@@ -154,7 +154,7 @@ bottomSections:
         title: ''
         image:
           type: ImageBlock
-          url: /images/person-3.jpg
+          url: /images/Gemini_Generated_Image_ulerp4ulerp4uler.jpeg
           altText: Johnna Doe
           caption: Caption of the image
           elementId: ''
