@@ -96,6 +96,16 @@ bottomSections:
       erscheinen. Ein Beispiel ist die Berichterstattung über die
       Hochwasserkatastrophe 2021, die im Tagesspiegel faktenorientiert und
       sachlich dargestellt wurde.
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
 metaTags: []
 colors: colors-a
 ---
