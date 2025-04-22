@@ -52,7 +52,7 @@ bottomSections:
         textAlign: center
 metaTags: []
 colors: colors-c
-addTitleSuffix: true
+addTitleSuffix: false
 socialImage: /images/aCK875qXDJProdzg9Uqfp.png
 ---
 
