@@ -16,25 +16,6 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: "\U0001F4F0"
-    subtitle: Objektive Darstellung
-    text: |+
-      Ereignisse oder Sachverhalte werden neutral wiedergegeben
-
-    colors: colors-a
-    variant: variant-b
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        textAlign: center
-  - type: TextSection
     title: "\U0001F3D7️"
     subtitle: Klarer Aufbau
     text: |+
