@@ -45,7 +45,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: TextSection
-    title: "\U0001F9E0"
+    title: Vorbildliches Beispiel
     subtitle: ''
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
