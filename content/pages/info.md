@@ -14,7 +14,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: |+
-      # Ich heiße Simon Hans
+      #### Ich heiße
+
+      #  **Simon Hans**
 
     styles:
       self:
