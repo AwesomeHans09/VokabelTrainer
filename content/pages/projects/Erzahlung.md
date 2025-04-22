@@ -63,13 +63,43 @@ bottomSections:
   - type: TextSection
     title: Elemente einer fesselnden Erzählung
     subtitle: ''
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >+
+      ### **Exposition**
+
+
+      #### Einführung von Figuren, Ort und Zeit; Vorstellung der
+      Ausgangssituation
+
+
+      ### ****
+
+
+      ### **Steigende Handlung**
+
+
+      #### Entwicklung von Konflikten oder Herausforderungen für die
+      Protagonisten
+
+
+
+
+      ### **Höhepunkt**
+
+
+      #### Der entscheidende Moment, in dem sich alles zuspitzt
+
+
+
+
+      ### **Fallende Handlung & Auflösung**
+
+
+      #### Lösung der Konflikte und Abschluss der Geschichte
+
+
+
+
+
     colors: colors-c
     variant: variant-b
     elementId: ''
