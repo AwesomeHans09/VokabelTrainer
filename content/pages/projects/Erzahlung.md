@@ -15,5 +15,5 @@ featuredImage:
   caption: Caption of the image
   elementId: ''
 ---
-Vokaleb Trainer
+
 
