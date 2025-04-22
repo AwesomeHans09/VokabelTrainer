@@ -107,7 +107,9 @@ bottomSections:
           elementId: ''
       - type: Testimonial
         quote: Sinneswahrnehmungen
-        name: Johnna Doe
+        name: >-
+          Beziehen Sie alle Sinne ein: Was kann man sehen, hören, riechen,
+          schmecken und fühlen?
         title: Product Marketing Manager at Acme
         image:
           type: ImageBlock
