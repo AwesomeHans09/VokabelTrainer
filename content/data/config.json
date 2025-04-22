@@ -12,17 +12,6 @@
                 "type": "Link",
                 "label": "Projects",
                 "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "showIcon": true
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
             }
         ],
         "socialLinks": [],
@@ -39,12 +28,6 @@
                 "type": "Link",
                 "label": "Info",
                 "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Kontakt",
-                "url": "HansSimon20@gmail.com",
                 "altText": ""
             }
         ],
