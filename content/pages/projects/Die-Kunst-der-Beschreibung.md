@@ -141,7 +141,7 @@ bottomSections:
         title: ''
         image:
           type: ImageBlock
-          url: /images/person-2.jpg
+          url: /images/Weiterbildung_Dr._Klueger_Rede-624x418.jpg
           altText: John Doe
           caption: Caption of the image
           elementId: ''
