@@ -13,7 +13,9 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: "# \U0001F600\U0001F600\U0001F600\U0001F600\n\n"
+    text: |+
+      # Ich heiße Simon Hans
+
     styles:
       self:
         height: auto
