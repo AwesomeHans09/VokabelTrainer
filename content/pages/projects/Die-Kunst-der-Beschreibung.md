@@ -45,7 +45,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: TextSection
-    title: ''
+    title: "\U0001F9E0"
     subtitle: Vorbildliches Beispiel
     text: >
       Tolkiens Beschreibung des Auenlandes in "Der Herr der Ringe" gilt als
