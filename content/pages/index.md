@@ -13,12 +13,10 @@ sections:
   - type: TextSection
     title: EINEN AUFSATZ RICHTIG SCHREIBEN
     subtitle: ''
-    text: >+
-      ##                                                    **Alles was du
-      wissen musst**
+    text: |+
+      ## **Alles was du wissen musst**
 
 
-      ![](https://preview--hansvokabeln-658c5.stackbit.dev/_static/app-assets/public/images/aCK875qXDJProdzg9Uqfp.png)
 
     colors: colors-f
     variant: variant-a
