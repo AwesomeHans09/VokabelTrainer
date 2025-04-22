@@ -80,10 +80,14 @@ bottomSections:
       Protagonisten
 
 
+
+
       ### **Höhepunkt**
 
 
       #### Der entscheidende Moment, in dem sich alles zuspitzt
+
+
 
 
       ### **Fallende Handlung & Auflösung**
