@@ -101,8 +101,7 @@ bottomSections:
         elementId: ''
         image:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
+          url: /images/Gemini_Generated_Image_y6ycaqy6ycaqy6yc.jpeg
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
