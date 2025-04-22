@@ -134,9 +134,7 @@ bottomSections:
   - type: TestimonialsSection
     testimonials:
       - type: Testimonial
-        quote: >-
-          “Our website is the core of our sales strategy. Doris helped us
-          establish an easy-to-maintain Stackbit site with outstanding visuals!”
+        quote: Bildhafte Sprache
         name: John Doe
         title: CEO at Parks
         image:
