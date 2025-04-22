@@ -83,6 +83,7 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: left
+        borderWidth: 5
 metaTags: []
 colors: colors-c
 addTitleSuffix: false
