@@ -43,7 +43,7 @@ bottomSections:
           - pb-28
           - pl-4
           - pr-4
-        textAlign: left
+        textAlign: center
   - type: TextSection
     title: "\U0001F9E0"
     subtitle: Vorbildliches Beispiel
