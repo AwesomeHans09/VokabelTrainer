@@ -64,33 +64,27 @@ bottomSections:
     title: Elemente einer fesselnden Erzählung
     subtitle: ''
     text: >+
-      ### **Exposition**
+      ### Exposition
 
 
       #### Einführung von Figuren, Ort und Zeit; Vorstellung der
       Ausgangssituation
 
 
-
-
-      ### **Steigende Handlung**
+      ### Steigende Handlung
 
 
       #### Entwicklung von Konflikten oder Herausforderungen für die
       Protagonisten
 
 
-
-
-      ### **Höhepunkt**
+      ### Höhepunkt
 
 
       #### Der entscheidende Moment, in dem sich alles zuspitzt
 
 
-
-
-      ### **Fallende Handlung & Auflösung**
+      ### Fallende Handlung & Auflösung
 
 
       #### Lösung der Konflikte und Abschluss der Geschichte
