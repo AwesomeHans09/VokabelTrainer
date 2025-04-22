@@ -135,7 +135,7 @@ bottomSections:
     testimonials:
       - type: Testimonial
         quote: Bildhafte Sprache
-        name: John Doe
+        name: ''
         title: CEO at Parks
         image:
           type: ImageBlock
