@@ -9,7 +9,7 @@
     "secondary": "#FE491F",
     "onSecondary": "#050806",
     "complementary": "#565862",
-    "onComplementary": "#FBFFF2",
+    "onComplementary": "#b3ff00",
     "fontBody": "\"DM Mono\", monospace",
     "headingWeight": "400",
     "headingCase": "uppercase"
