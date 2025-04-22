@@ -15,24 +15,6 @@ bottomSections:
           - pt-36
           - pb-36
         borderWidth: 1
-  - type: HeroSection
-    title: ''
-    subtitle: ''
-    actions: []
-    colors: colors-a
-    backgroundSize: full
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-48
-          - pl-4
-          - pr-4
-        flexDirection: row-reverse
-        textAlign: left
   - type: TextSection
     title: ''
     text: |
