@@ -17,12 +17,6 @@ bottomSections:
           atmosphärische Darstellung des Handlungsortes.
         name: ''
         title: ''
-        image:
-          type: ImageBlock
-          url: /images/person-2.jpg
-          altText: John Doe
-          caption: Caption of the image
-          elementId: ''
         elementId: ''
       - type: Testimonial
         quote: >-
