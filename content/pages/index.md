@@ -38,7 +38,7 @@ sections:
           - pb-36
         borderWidth: 1
   - type: CtaSection
-    title: Einen Aufsatz richtig schreiben
+    title: ''
     text: >
 
 
