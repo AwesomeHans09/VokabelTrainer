@@ -62,7 +62,7 @@ bottomSections:
           - pb-28
           - pl-4
           - pr-4
-        textAlign: left
+        textAlign: center
 metaTags: []
 colors: colors-b
 ---
