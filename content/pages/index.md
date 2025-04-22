@@ -44,12 +44,6 @@ sections:
   - type: CtaSection
     title: ''
     text: >
-
-
-
-
-
-
       ## ***Alles Wichtige über Aufsätze für die Schule***
 
 
@@ -65,25 +59,29 @@ sections:
       ## **Die wichtigsten Aufsatzarten**
 
 
-      **1. Erzählung:**
+      [**1.
+      Erzählung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Erzahlung/)
 
       Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
       sind Kreativität und Fantasie gefragt.
 
 
-      **2. Beschreibung:**
+      [**2.
+      Beschreibung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Die-Kunst-der-Beschreibung/)
 
       Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
       möglichst genau und anschaulich.
 
 
-      **3. Bericht:**
+      [**3.
+      Bericht:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/project-one/)
 
       Du schilderst sachlich und chronologisch, was passiert ist. Berichte
       findet man oft bei Unfall- oder Zeitungsberichten.
 
 
-      **4. Erörterung:**
+      [**4.
+      Erörterung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Die-Erorterung:-Pro-und-Contra/)
 
       Du setzt dich mit einer Fragestellung auseinander, beleuchtest
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
