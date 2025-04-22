@@ -148,7 +148,9 @@ bottomSections:
         elementId: ''
       - type: Testimonial
         quote: Perspektive
-        name: Johnna Doe
+        name: >-
+          Berücksichtigen Sie den Standpunkt des Beschreibenden und dessen
+          Wahrnehmungsfilter.
         title: Product Marketing Manager at Acme
         image:
           type: ImageBlock
