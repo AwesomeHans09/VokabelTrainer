@@ -10,58 +10,96 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
-    colors: colors-f
-    backgroundSize: full
-    title: Simon Hans
+  - type: TextSection
+    title: EINEN AUFSATZ RICHTIG SCHREIBEN
     subtitle: ''
+    text: ''
+    colors: colors-f
+    variant: variant-a
+    elementId: ''
     styles:
       self:
         height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
+        width: narrow
         padding:
-          - pt-36
-          - pb-48
+          - pt-28
+          - pb-28
           - pl-4
           - pr-4
-        flexDirection: row-reverse
-        textAlign: left
-    type: HeroSection
-    actions:
-      - type: Link
-        label: "Mein Social Media\U0001F4F1"
-        altText: Alles über mich findest du hier
-        url: 'https://linktr.ee/HansSimon20'
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
-    media:
-      type: ImageBlock
-      url: /images/HansSimon.jpg
-      altText: altText of the image
-      caption: Caption of the image
-      elementId: ''
+        textAlign: center
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
   - type: CtaSection
-    title: 'Los Geht es '
-    text: >+
-      Hier ist das Wichtigste über den Englisch Vocabel Trainer zusammen
-      gefasst:
+    title: ''
+    text: >
 
+
+
+
+
+
+      ## ***Alles Wichtige über Aufsätze für die Schule***
+
+
+      ## **Was ist ein Aufsatz?**
+
+
+      Ein Aufsatz ist ein schriftlicher Text, in dem du ein bestimmtes Thema
+      bearbeitest. Dabei zeigst du, wie gut du dich ausdrücken, argumentieren
+      und strukturieren kannst. Aufsätze sind ein wichtiger Bestandteil des
+      Deutschunterrichts.
+
+
+      ## **Die wichtigsten Aufsatzarten**
+
+
+      **1. Erzählung:**
+
+      Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
+      sind Kreativität und Fantasie gefragt.
+
+
+      **2. Beschreibung:**
+
+      Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
+      möglichst genau und anschaulich.
+
+
+      **3. Bericht:**
+
+      Du schilderst sachlich und chronologisch, was passiert ist. Berichte
+      findet man oft bei Unfall- oder Zeitungsberichten.
+
+
+      **4. Erörterung:**
+
+      Du setzt dich mit einer Fragestellung auseinander, beleuchtest
+      verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
     actions:
       - type: Button
-        label: Learn more
+        label: Aufsatzarten
         altText: ''
-        url: /projects
-        showIcon: false
+        url: /
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
+        elementId: ''
+      - type: Link
+        label: Grundlagen
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
         elementId: ''
     colors: colors-f
     backgroundSize: full
@@ -75,7 +113,7 @@ sections:
           - pb-28
           - pl-4
           - pr-4
-        flexDirection: col
-        textAlign: center
+        flexDirection: row
+        textAlign: left
 socialImage: /images/e.jpg
 ---
