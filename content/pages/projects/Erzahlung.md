@@ -53,6 +53,7 @@ bottomSections:
 metaTags: []
 colors: colors-c
 addTitleSuffix: true
+socialImage: /images/aCK875qXDJProdzg9Uqfp.png
 ---
 
 
