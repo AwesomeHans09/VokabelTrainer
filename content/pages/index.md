@@ -14,7 +14,7 @@ sections:
     title: ''
     subtitle: ''
     text: |+
-      ###### **EINEN AUFSATZ RICHTIG SCHREIBEN**
+      ###### ****
 
     colors: colors-f
     variant: variant-a
