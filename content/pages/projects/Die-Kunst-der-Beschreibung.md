@@ -16,25 +16,6 @@ bottomSections:
           - pb-36
         borderWidth: 1
   - type: TextSection
-    title: "\U0001F441️"
-    subtitle: Objektiv vs Subjektiv
-    text: >
-      Objektive Beschreibungen stellen sachlich dar, während subjektive
-      Beschreibungen persönliche Eindrücke und Gefühle vermitteln.
-    colors: colors-b
-    variant: variant-b
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        textAlign: center
-  - type: TextSection
     title: "\U0001F9E0"
     subtitle: Vorbildliches Beispiel
     text: >
