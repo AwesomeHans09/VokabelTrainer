@@ -1,0 +1,90 @@
+{
+    "model": "ProjectFeedLayout",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "test",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Trainer"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Projects",
+                "projectFeed": {
+                    "$$type": "ProjectFeedSection",
+                    "title": null,
+                    "subtitle": null,
+                    "actions": [],
+                    "colors": "colors-f",
+                    "variant": "variant-a",
+                    "elementId": null,
+                    "showDate": false,
+                    "showDescription": true,
+                    "showFeaturedImage": true,
+                    "showReadMoreLink": true,
+                    "styles": {
+                        "self": {
+                            "width": "narrow",
+                            "padding": [
+                                "pt-0",
+                                "pl-4",
+                                "pr-4",
+                                "pb-12"
+                            ]
+                        }
+                    }
+                },
+                "topSections": [
+                    {
+                        "$$type": "HeroSection",
+                        "title": "Projects",
+                        "subtitle": "",
+                        "text": null,
+                        "actions": [],
+                        "media": null,
+                        "colors": "colors-f",
+                        "backgroundSize": "full",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                                "height": "auto",
+                                "width": "narrow",
+                                "padding": [
+                                    "pt-16",
+                                    "pb-16",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
+                                "flexDirection": "row",
+                                "textAlign": "left"
+                            }
+                        }
+                    }
+                ],
+                "bottomSections": [],
+                "metaTitle": null,
+                "metaDescription": null,
+                "addTitleSuffix": null,
+                "socialImage": null,
+                "metaTags": [],
+                "colors": "colors-a",
+                "backgroundImage": {
+                    "$$type": "BackgroundImage",
+                    "url": {
+                        "$$ref": "stackbit_asset_id:static:public/images/bg1.jpg",
+                        "$$type": "__asset_model"
+                    },
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center",
+                    "backgroundRepeat": "no-repeat",
+                    "opacity": 50
+                }
+            },
+            "thumbnail": "images/project-feed-layout-test-f111.png"
+        }
+    ]
+}
