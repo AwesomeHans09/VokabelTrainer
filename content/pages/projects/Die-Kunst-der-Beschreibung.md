@@ -135,7 +135,9 @@ bottomSections:
     testimonials:
       - type: Testimonial
         quote: Bildhafte Sprache
-        name: ''
+        name: >-
+          Nutzen Sie Metaphern und Vergleiche, um komplexe Eindrücke anschaulich
+          zu vermitteln.
         title: CEO at Parks
         image:
           type: ImageBlock
