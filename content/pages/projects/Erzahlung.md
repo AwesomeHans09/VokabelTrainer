@@ -71,7 +71,6 @@ bottomSections:
       Ausgangssituation
 
 
-      ### ****
 
 
       ### **Steigende Handlung**
@@ -81,24 +80,16 @@ bottomSections:
       Protagonisten
 
 
-
-
       ### **Höhepunkt**
 
 
       #### Der entscheidende Moment, in dem sich alles zuspitzt
 
 
-
-
       ### **Fallende Handlung & Auflösung**
 
 
       #### Lösung der Konflikte und Abschluss der Geschichte
-
-
-
-
 
     colors: colors-c
     variant: variant-b
