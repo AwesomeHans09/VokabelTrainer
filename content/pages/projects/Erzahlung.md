@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: ''
+title: Was ist eine Erzählung?
 date: '2025-04-22'
 client: ''
 description: ''
