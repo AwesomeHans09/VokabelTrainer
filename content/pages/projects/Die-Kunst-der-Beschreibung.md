@@ -6,7 +6,7 @@ client: ''
 description: ''
 bottomSections:
   - type: TextSection
-    title: ''
+    title: "\U0001F58C️"
     subtitle: The section subtitle
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
