@@ -83,7 +83,7 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: left
-        borderWidth: 5
+        borderWidth: 0
         borderColor: border-(--theme-light)
 metaTags: []
 colors: colors-c
