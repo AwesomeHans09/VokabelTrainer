@@ -18,7 +18,7 @@ bottomSections:
   - type: TextSection
     title: ''
     text: |
-      ![](/images/Screenshot%202025-04-22%20213603.png)
+      ![](/images/Screenshot%202025-04-22%20213909.png)
     colors: colors-f
     variant: variant-a
     elementId: ''
