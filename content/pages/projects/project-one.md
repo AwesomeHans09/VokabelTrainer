@@ -89,6 +89,11 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: left
+    subtitle: >-
+      Berichte können als Nachrichtenmeldungen, Unfallberichte oder Protokolle
+      erscheinen. Ein Beispiel ist die Berichterstattung über die
+      Hochwasserkatastrophe 2021, die im Tagesspiegel faktenorientiert und
+      sachlich dargestellt wurde.
 metaTags: []
 colors: colors-a
 ---
