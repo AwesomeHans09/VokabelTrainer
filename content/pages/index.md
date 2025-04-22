@@ -12,11 +12,17 @@ backgroundImage:
 sections:
   - type: CtaSection
     title: Einen Aufsatz richtig schreiben
-    text: >+
-      ## Alles Wichtige über Aufsätze für die Schule
+    text: >
 
 
-      ## Was ist ein Aufsatz?
+
+
+      ## ***Alles Wichtige über Aufsätze für die Schule***
+
+
+
+
+      ## **Was ist ein Aufsatz?**
 
 
       Ein Aufsatz ist ein schriftlicher Text, in dem du ein bestimmtes Thema
@@ -25,7 +31,7 @@ sections:
       Deutschunterrichts.
 
 
-      ## Die wichtigsten Aufsatzarten
+      ## **Die wichtigsten Aufsatzarten**
 
 
       **1. Erzählung:**
@@ -34,14 +40,10 @@ sections:
       sind Kreativität und Fantasie gefragt.
 
 
-
-
       **2. Beschreibung:**
 
       Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
       möglichst genau und anschaulich.
-
-
 
 
       **3. Bericht:**
@@ -50,17 +52,10 @@ sections:
       findet man oft bei Unfall- oder Zeitungsberichten.
 
 
-
-
       **4. Erörterung:**
 
       Du setzt dich mit einer Fragestellung auseinander, beleuchtest
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
-
-
-
-
-
     actions:
       - type: Button
         label: Try it now
