@@ -28,13 +28,9 @@ bottomSections:
   - type: TextSection
     title: "\U0001F441️"
     subtitle: Objektiv vs Subjektiv
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >
+      Objektive Beschreibungen stellen sachlich dar, während subjektive
+      Beschreibungen persönliche Eindrücke und Gefühle vermitteln.
     colors: colors-b
     variant: variant-b
     elementId: ''
