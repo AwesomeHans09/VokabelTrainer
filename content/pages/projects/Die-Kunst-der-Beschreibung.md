@@ -113,7 +113,7 @@ bottomSections:
         title: ''
         image:
           type: ImageBlock
-          url: /images/person-3.jpg
+          url: /images/wahrnehmung-fuenf-sinne.jpg
           altText: Johnna Doe
           caption: Caption of the image
           elementId: ''
