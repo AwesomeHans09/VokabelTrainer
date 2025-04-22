@@ -151,7 +151,7 @@ bottomSections:
         name: >-
           Berücksichtigen Sie den Standpunkt des Beschreibenden und dessen
           Wahrnehmungsfilter.
-        title: Product Marketing Manager at Acme
+        title: ''
         image:
           type: ImageBlock
           url: /images/person-3.jpg
