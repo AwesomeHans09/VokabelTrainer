@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: 'Bericht: Fakten und Informationen'
-date: '2025-04-21'
+date: '2025-04-24'
 client: ''
 description: ''
 bottomSections:
