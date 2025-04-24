@@ -59,29 +59,25 @@ sections:
       ## **Die wichtigsten Aufsatzarten**
 
 
-      [**1.
-      Erzählung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Erzahlung/)
+      [**1. Erzählung:**](/projects)
 
       Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
       sind Kreativität und Fantasie gefragt.
 
 
-      [**2.
-      Beschreibung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Die-Kunst-der-Beschreibung/)
+      [**2. Beschreibung:**](/projects)
 
       Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
       möglichst genau und anschaulich.
 
 
-      [**3.
-      Bericht:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/project-one/)
+      [**3. Bericht:**](/projects)
 
       Du schilderst sachlich und chronologisch, was passiert ist. Berichte
       findet man oft bei Unfall- oder Zeitungsberichten.
 
 
-      [**4.
-      Erörterung:**](https://preview--hansvokabeln-658c5.stackbit.dev/projects/Die-Erorterung:-Pro-und-Contra/)
+      [**4. Erörterung:**](/projects)
 
       Du setzt dich mit einer Fragestellung auseinander, beleuchtest
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
