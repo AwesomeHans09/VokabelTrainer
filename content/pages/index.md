@@ -59,25 +59,25 @@ sections:
       ## **Die wichtigsten Aufsatzarten**
 
 
-      [**1. Erzählung:**](/projects)
+      **1. Erzählung:**
 
       Du erzählst eine spannende, lustige oder interessante Geschichte. Hier
       sind Kreativität und Fantasie gefragt.
 
 
-      [**2. Beschreibung:**](/projects)
+      **2. Beschreibung:**
 
       Du beschreibst einen Gegenstand, eine Person, einen Ort oder einen Ablauf
       möglichst genau und anschaulich.
 
 
-      [**3. Bericht:**](/projects)
+      **3. Bericht:**
 
       Du schilderst sachlich und chronologisch, was passiert ist. Berichte
       findet man oft bei Unfall- oder Zeitungsberichten.
 
 
-      [**4. Erörterung:**](/projects)
+      **4. Erörterung:**
 
       Du setzt dich mit einer Fragestellung auseinander, beleuchtest
       verschiedene Seiten und vertrittst am Ende deine eigene Meinung.
