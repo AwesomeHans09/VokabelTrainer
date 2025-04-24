@@ -92,5 +92,5 @@ bottomSections:
 metaTags: []
 colors: colors-a
 ---
-Vokaleb Trainer
+
 
