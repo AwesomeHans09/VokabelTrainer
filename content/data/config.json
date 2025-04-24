@@ -14,7 +14,16 @@
                 "url": "/projects"
             }
         ],
-        "socialLinks": [],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "https://linktr.ee/HansSimon20",
+                "icon": "bluesky",
+                "elementId": ""
+            }
+        ],
         "styles": {
             "self": {
                 "width": "full"
